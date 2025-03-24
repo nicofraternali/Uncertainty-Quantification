@@ -1,7 +1,7 @@
 # Uncertainty Quantification in Structural Dynamics
 
 ## Overview
-This series of Jupyter Notebooks is based on the book **Quantificação de Incerteza e Estimação de Parâmetros em Dinâmica Estrutural: Uma Introdução Baseada em Exemplos Computacionais** by Daniel Alves Castello and Thiago Gamboa Ritto.
+This series of Jupyter Notebooks is based on the book **Quantificação de Incerteza e Estimação de Parâmetros em Dinâmica Estrutural: Uma Introdução Baseada em Exemplos Computacionais** by <u>Daniel Alves Castello</u> and <u>Thiago Gamboa Ritto</u>.
 
 ## Project Objectives
 - Summarize the theoretical contents of the book
