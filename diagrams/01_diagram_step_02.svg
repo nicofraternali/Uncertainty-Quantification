@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 200">
+
+  <rect x="0" y="0" width="370" height="200" fill="white"/>
+
+  <!-- Boxes -->
+  <rect x="10" y="50" width="120" height="80" stroke="black" stroke-width="1" fill="white"/>
+
+  <rect x="240" y="50" width="120" height="80" stroke="black" stroke-width="1" fill="white"/>
+
+  <rect x="125" y="175" width="120" height="20" stroke="black" stroke-width="1" fill="white"/>
+    
+  <!-- Arrows -->
+  <line x1="130" y1="90" x2="230" y2="90" stroke="black" stroke-width="1"/>
+  <polygon points="240,90 230,85 230,95" fill="black"/>
+  
+  <line x1="185" y1="175" x2="185" y2="90" stroke="black" stroke-width="1"/>
+  <polygon points="185,90 180,100 190,100" fill="black"/>
+  
+  <!-- Text labels -->
+  <text x="300" y="75" font-family="Arial" font-size="16" text-anchor="middle">Stochastic</text>
+  <text x="300" y="95" font-family="Arial" font-size="16" text-anchor="middle">Computational</text>
+  <text x="300" y="115" font-family="Arial" font-size="16" text-anchor="middle">Model</text>
+  <text x="70" y="75" font-family="Arial" font-size="16" text-anchor="middle">Deterministic</text>
+  <text x="70" y="95" font-family="Arial" font-size="16" text-anchor="middle">Computational</text>
+  <text x="70" y="115" font-family="Arial" font-size="16" text-anchor="middle">Model</text>
+  <text x="185" y="190" font-family="Arial" font-size="14" text-anchor="middle">Probability Theory</text>
+  
+</svg>

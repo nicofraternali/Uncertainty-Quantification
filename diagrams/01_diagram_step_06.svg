@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 300">
+  <!-- Background rectangle -->
+  <rect x="0" y="0" width="600" height="300" fill="white"/>
+  
+  <!-- Data ellipse - shifted left -->
+  <ellipse cx="300" cy="76" rx="80" ry="50" stroke="black" stroke-width="1" fill="white"/>
+  
+  <!-- Prior Model box - shifted left -->
+  <rect x="30" y="220" width="220" height="60" stroke="black" stroke-width="1" fill="white"/>
+  
+  <!-- Posterior Model box - shifted left -->
+  <rect x="350" y="220" width="220" height="60" stroke="black" stroke-width="1" fill="white"/>
+  
+  <!-- Arrows - all adjusted for new positions -->
+  <!-- Data to Prior arrow -->
+  <line x1="260" y1="120" x2="185" y2="220" stroke="black" stroke-width="1"/>
+  <polygon points="185,220 188,211 195,218" fill="black"/>
+  
+  <!-- Prior to Posterior arrow -->
+  <line x1="250" y1="250" x2="350" y2="250" stroke="black" stroke-width="1"/>
+  <polygon points="350,250 340,245 340,255" fill="black"/>
+  
+  <!-- Posterior to Prior curved arrow -->
+  <path d="M460 220 Q300 150 215 220" stroke="black" stroke-width="1" fill="none"/>
+  <polygon points="215,220 215,210 225,220" fill="black"/>
+  
+  <!-- Text labels -->
+  <text x="300" y="85" font-family="Arial" font-size="20" text-anchor="middle">Data</text>
+  
+  <text x="140" y="245" font-family="Arial" font-size="20" text-anchor="middle">Previous</text>
+  <text x="140" y="265" font-family="Arial" font-size="20" text-anchor="middle">Probabilistic model</text>
+  
+  <text x="460" y="245" font-family="Arial" font-size="20" text-anchor="middle">Updated</text>
+  <text x="460" y="265" font-family="Arial" font-size="20" text-anchor="middle">Probabilistic model</text>
+</svg>

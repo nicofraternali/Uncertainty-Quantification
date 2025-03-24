@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 200">
+
+  <rect x="0" y="0" width="400" height="200" fill="white"/>
+
+  <!-- Box for the model -->
+  <rect x="120" y="50" width="160" height="80" stroke="black" stroke-width="1" fill="white"/>
+  
+  <!-- Input arrow -->
+  <line x1="10" y1="90" x2="120" y2="90" stroke="black" stroke-width="1"/>
+  <polygon points="120,90 110,85 110,95" fill="black"/>
+  
+  <!-- Output arrow -->
+  <line x1="280" y1="90" x2="390" y2="90" stroke="black" stroke-width="1"/>
+  <polygon points="390,90 380,85 380,95" fill="black"/>
+  
+  <!-- Parameters arrow -->
+  <line x1="200" y1="170" x2="200" y2="130" stroke="black" stroke-width="1"/>
+  <polygon points="200,130 195,140 205,140" fill="black"/>
+  
+  <!-- Text labels -->
+  <text x="50" y="85" font-family="Arial" font-size="16" text-anchor="middle">Inputs</text>
+  <text x="350" y="85" font-family="Arial" font-size="16" text-anchor="middle">Outputs</text>
+  <text x="200" y="75" font-family="Arial" font-size="16" text-anchor="middle">Deterministic</text>
+  <text x="200" y="95" font-family="Arial" font-size="16" text-anchor="middle">Computational</text>
+  <text x="200" y="115" font-family="Arial" font-size="16" text-anchor="middle">Model</text>
+  <text x="200" y="190" font-family="Arial" font-size="16" text-anchor="middle">Parameters</text>
+</svg>

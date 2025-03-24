@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 400">
+  <!-- Background rectangle -->
+  <rect x="0" y="0" width="490" height="400" fill="white"/>
+  
+  <!-- Top box - Stochastic Computational Model -->
+  <rect x="150" y="35" width="160" height="80" stroke="black" stroke-width="1" fill="white"/>
+  
+  <!-- Bottom box - Stochastic Computational Model -->
+  <rect x="150" y="230" width="160" height="80" stroke="black" stroke-width="1" fill="white"/>
+  
+  <!-- Statistics box -->
+  <rect x="330" y="330" width="120" height="50" stroke="black" stroke-width="1" fill="white"/>
+  
+  <!-- Arrows -->
+  <line x1="80" y1="75" x2="150" y2="75" stroke="black" stroke-width="1"/>
+  <polygon points="150,75 140,70 140,80" fill="black"/>
+
+  <line x1="310" y1="75" x2="380" y2="75" stroke="black" stroke-width="1"/>
+  <polygon points="380,75 370,70 370,80" fill="black"/>
+  
+  <line x1="230" y1="115" x2="230" y2="230" stroke="black" stroke-width="1"/>
+  <polygon points="230,230 225,220 235,220" fill="black"/>
+  
+  <line x1="80" y1="270" x2="150" y2="270" stroke="black" stroke-width="1"/>
+  <polygon points="150,270 140,265 140,275" fill="black"/>
+  
+  <line x1="310" y1="270" x2="470" y2="270" stroke="black" stroke-width="1"/>
+  <polygon points="470,270 460,265 460,275" fill="black"/>
+  
+  <line x1="390" y1="285" x2="390" y2="330" stroke="black" stroke-width="1"/>
+  <polygon points="390,330 385,320 395,320" fill="black"/>
+  
+  <!-- Text labels -->
+  <text x="45" y="80" font-family="Arial" font-size="14" text-anchor="middle">Input pdf</text>
+  <text x="420" y="80" font-family="Arial" font-size="14" text-anchor="middle">Output pdf</text>
+  
+  <text x="230" y="60" font-family="Arial" font-size="14" text-anchor="middle">Stochastic</text>
+  <text x="230" y="80" font-family="Arial" font-size="14" text-anchor="middle">Computational</text>
+  <text x="230" y="100" font-family="Arial" font-size="14" text-anchor="middle">Model</text>
+  
+  <text x="262" y="150" font-family="Arial" font-size="14" text-anchor="middle" transform="rotate(-90,250,180)">Approximation</text>
+  
+  <text x="230" y="255" font-family="Arial" font-size="14" text-anchor="middle">Stochastic</text>
+  <text x="230" y="275" font-family="Arial" font-size="14" text-anchor="middle">Computational</text>
+  <text x="230" y="295" font-family="Arial" font-size="14" text-anchor="middle">Model</text>
+  
+  <text x="45" y="267" font-family="Arial" font-size="14" text-anchor="middle">Random</text>
+  <text x="45" y="282" font-family="Arial" font-size="14" text-anchor="middle">Numbers</text>
+  
+  <text x="390" y="267" font-family="Arial" font-size="14" text-anchor="middle">Monte Carlo</text>
+  <text x="390" y="282" font-family="Arial" font-size="14" text-anchor="middle">Simulations</text>
+  
+  <text x="390" y="350" font-family="Arial" font-size="14" text-anchor="middle">Statistics</text>
+  <text x="390" y="370" font-family="Arial" font-size="14" text-anchor="middle">of responses</text>
+</svg>

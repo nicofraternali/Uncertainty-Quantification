@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 520 350">
+  <!-- Background rectangle -->
+  <rect x="0" y="0" width="550" height="400" fill="white"/>
+  
+  <!-- Top box - Stochastic Computational Model -->
+  <rect x="100" y="150" width="160" height="80" stroke="black" stroke-width="1" fill="white"/>
+  
+  <!-- Arrows -->
+  <line x1="15" y1="190" x2="100" y2="190" stroke="black" stroke-width="1"/>
+  <polygon points="100,190 90,195 90,185" fill="black"/>
+
+  <line x1="180" y1="150" x2="180" y2="75" stroke="black" stroke-width="1"/>
+  <polygon points="180,150 185,140 175,140" fill="black"/>
+
+  <line x1="260" y1="190" x2="350" y2="150" stroke="black" stroke-width="1"/>
+  <polygon points="355,145 353,155 345,145" fill="black"/>
+
+  <line x1="260" y1="190" x2="350" y2="230" stroke="black" stroke-width="1"/>
+  <polygon points="345,235 350,225 355,235" fill="black"/>
+  
+  <line x1="260" y1="190" x2="350" y2="190" stroke="black" stroke-width="1"/>
+  <polygon points="360,190 350,195 350,185" fill="black"/>
+
+  <!-- Text labels -->
+  <text x="53" y="185" font-family="Arial" font-size="14" text-anchor="middle">Input</text>
+  <text x="180" y="70" font-family="Arial" font-size="14" text-anchor="middle">Parameters (p)</text>
+  
+  <text x="180" y="175" font-family="Arial" font-size="14" text-anchor="middle">Stochastic</text>
+  <text x="180" y="195" font-family="Arial" font-size="14" text-anchor="middle">Computational</text>
+  <text x="180" y="215" font-family="Arial" font-size="14" text-anchor="middle">Model</text>
+
+  <text x="420" y="195" font-family="Arial" font-size="14" text-anchor="middle">Reliability analysis</text>
+  
+  <text x="435" y="145" font-family="Arial" font-size="14" text-anchor="middle">Uncertainty propagation</text>
+  
+  <text x="420" y="240" font-family="Arial" font-size="14" text-anchor="middle">Robust optimization</text>
+
+
+</svg>
